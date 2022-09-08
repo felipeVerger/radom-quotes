@@ -1,0 +1,59 @@
+.quote-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.advice-id {
+    font-family: var(--font-base);
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.quote {
+    font-family: var(--font-base);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: var(--light-cyan);
+}
+
+.quote-content img {
+    width: 90%;
+}
+
+
+.quote-content button {
+    position: absolute;
+    bottom: -30px;
+
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--neon-green);
+    transition: all 0.3s ease-in-out;
+}
+
+.quote-content button:hover {
+    background-color: #39ff14;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+.quote-content button img {
+    width: 30px;
+}
